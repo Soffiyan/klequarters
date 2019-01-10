@@ -1,0 +1,25 @@
+.buts
+            {
+                text-align: right;    
+            }
+            input[type=text]
+            {
+                border: 1px solid #ccc;
+                height: 35;
+                border-radius: 4px;
+                padding: 10;
+                width: 20%;
+            }
+            .input-group
+            {
+                width: 18%;
+                float: right;
+                right: -10px;
+            }
+            .form-control
+            {
+                display: block;
+                width: 100%;
+                height: 33px ! important;
+                padding: 12px 12px;
+            }

@@ -1,0 +1,14 @@
+@page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+    #hidden-print {
+    display: none !important;
+  }
+
+}
